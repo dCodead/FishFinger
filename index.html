@@ -11,128 +11,34 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <link rel="stylesheet" @media="all and(min-width: large)" href="./res/FishFinger.css">
+
     </head>
-    <body leftmargin="50%" rightmargin="50%" topmargin="50%" bottommargin="50%">
+
+    <body id="home" >
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <h1>Jumbo fish fingers</h1>
-        <h3>GOLDEN CRISPY BREADCRUMBS</h3>
-        <img alt="Delicious Jumbo Fish Fingers" src="JumboFishFingers.jpg">
-        <p><strong>Makes</strong> 10 portions  
-            <strong>Cooks In</strong>
-             25 minutes prep, plus cooking 
-             <strong>Difficulty</strong> Not too 
-             tricky
-        </p>
-        <hr>
-        <h1>INGREDIENTS</h1>
-        
-        <ul>
-            <li>1 x 2 kg side of salmon, skin off, pin-boned, from sustainable sources</li>
-            <li>2 large free-range eggs</li>
-            <li>2 <abbr title="teaspoons">tsp</abbr> sweet smoked paprika</li>
-            <li>250 g wholemeal bread</li>
-            <li>30 g Cheddar cheese</li>
-            <li>extra virgin olive oil</li>
-        </ul>
-        <hr>
-        <h1>METHOD</h1>
-        <ol>
-            <li><strong>Cut the fish into 10 x 120g portions.</strong> I tend to cut the side lengthways about 3cm thick, then into chunks from that.</li>
-             
-            <li><strong>In a shallow bowl:</strong></li>
-            <ul>
-                <li>
-                whisk the eggs with the paprika and a pinch of sea salt and black pepper. 
-                </li>
-                <li>
-                Tear the bread into a food processor, grate in the cheese, add 2 <abbr title="tablespoons">tbsp</abbr> of oil and whiz until you have breadcrumbs, then tip into a tray.
-                </li>
-                <li>
-                Coat each fish portion in the egg mixture, let any excess drip off, then turn in the breadcrumbs until well coated all over.
-                </li>
-                <li>
-                Transfer to a tray lined with greaseproof paper, layering them up between sheets of paper until they’re all coated.  
-                </li>
-                <li>
-                Cook right away or freeze in the tray – once frozen, you can pop them into a tub or sandwich bags for easier storage.
-                </li>
-            </ul>
-            <li><strong>To cook:</strong></li>
-            <ul>
-                <li>
-                    Place however many jumbo fish fingers you need on a roasting tray
-                </li>
-                <li>
-                    Cook in a preheated oven at 200°C/400°F/gas 6 for 15 minutes from fresh, or 20 minutes from frozen, or untill golden and cooked through.
-                </li>
-            </ul>
-
-        </ol>
-        <hr>
-
-        <h1>User Comments</h1>
-        <fieldset>
-            <legend>Enter a comment:</legend>
-            <h4>Name:</h4>
-            <input type="text"> 
-            <h4>Comment:</h4>
-            <textarea rows="5" column="3" width="100%" placeholder="Enter your comment here..."></textarea>
-            <p><img alt="'+' Sign" width="50px" src="./PlusSign.jpg"></p>
-        </fieldset>
-
-        <h3>All comments:</h3>
-        <ul>
-            <p>
-                This is a very fun recipe to follow.
-            </p>
-            <p>
-                - Ahmed Z.
-            </p>
-            <p>
-                This is my favorite recipe. I enjoy it.
-            </p>
-            <p>
-                - Karim K.
-            </p>
-        </ul>
-
-        <hr>
-        <h1>Sign-up to receive new recipes</h1>
-        <fieldset>
-            <legend>Personal Information</legend>
-            <label><strong>Name:</strong></label>
-            <input type="text"> 
-            <p></p>
-            <label><strong>Email:</strong></label>
-            <input type="email" placeholder="xxxx@domain.com"> 
-        </fieldset>
-<br>
-
-        <fieldset>
-            <legend>Types of recipes</legend>
-            <label>Breakfast:</label>
-            <input type="radio"> 
-            <label>Launch:</label>
-            <input type="radio"> 
-            <label>Launch:</label>
-            <input type="radio"> 
-        </fieldset>
-<br>
-        <button>Sign Up</button>
-        <hr>
-        <h1>LINKS</h1>
-        <a href="https://www.google.com/search?q=fish+fingers+recipe&start=10">Search for other fish fingers recipes</a>
-
-
-
-
-
-
-
-
+        <h1 id="main_header_home"> <strong>All Awesome Recipes</strong></h1>
+        <div class="flexbox_home">
+            <div>
+                <a href="./FishFingerCSS.html">
+                <img class ="responsive" src="./res/JumboFishFingers.jpg">
+                </a>
+            </div>
+            <div>
+                <a href="./FishFingerCSS.html">
+                <img class ="responsive" src="./res/roast-chicken-dishes-recipe.png">    
+                </a>
+            </div>            
+            <div>
+                <a href="./FishFingerCSS.html">
+                <img class ="responsive" src="./res/classic-chocolate-mousse.jpg">    
+                </a>
+            </div>
+        </div>
         <script src="" async defer></script>
     </body>
 </html>
